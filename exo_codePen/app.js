@@ -87,6 +87,3 @@ function gifLoaderOver(){
 }
 //faire avancer la bar en fonction du nombres caractères
 
-function progressBar(){
-    
-}
