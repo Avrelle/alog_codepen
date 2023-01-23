@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <style id="style"></style>
+    
+  </head>
+  <body>
+    <button id = "btn"type="button" class="btn btn-primary">run</button>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <label>HTML</label>
+            <textarea id="html" cols="35" rows="10" maxlength="100"></textarea>
+            <p id = "countHtml"></p>
+            <div id="prgresseBarHtml"class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                <div id = "pb1" class="progress-bar progress-bar-striped"></div>
+                </div>
+            </div>
+           
+          
+          <div class="col">
+            <label>CSS</label>
+            <textarea id="css" cols="35" rows="10" maxlength="100"></textarea>
+            <p id = "countCss"></p>
+            <div id= "prgresseBarCss" class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                <div id = "pb2" class="progress-bar progress-bar-striped"></div>
+              </div>
+          </div>
+          
+          <div class="col">
+            <label>JS</label>
+            <textarea id="js" cols="35" rows="10" maxlength="100"></textarea>
+            <p id = "countJs"></p>
+            <div id = "prgresseBarJs"class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                <div id = "pb3" class="progress-bar progress-bar-striped"></div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container mt-4">
+        <h1>Result</h1>
+  
+        <img class="gif" src="gifL.gif" alt="">
+        
+        <div id ="resultCode" class="resultCode">
+            <script id= "javaS"></script>
+        </div>
+      </div>
+
+        
+      
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

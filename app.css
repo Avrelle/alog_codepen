@@ -1,0 +1,13 @@
+#forme{
+    height: 125px;
+    width: 125px;
+    margin: 0;
+    padding: 0;
+    background: blue;
+}
+#forme.active{
+    background-color: brown;
+    border-radius: 100px;
+    transition: 3s;
+    transform: translate(100px, 200px);
+}
